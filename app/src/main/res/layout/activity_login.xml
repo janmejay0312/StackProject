@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+       android:layout_marginTop="200dp"
+        android:text="Stack overFlow"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:id="@+id/name"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:background="@mipmap/images"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/name"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:id="@+id/desc"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:text="Login to fully enjoy Stackoverflow's features"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:id="@+id/login"
+        android:textColor="@color/white"
+        android:background="@color/orange_red"
+        android:text="Login to StackOver Flow"
+        />
+</RelativeLayout>
